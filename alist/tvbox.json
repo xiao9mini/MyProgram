@@ -28,32 +28,6 @@
       "searchable": 1
     },
     {
-      "ext": "eyJhcGkiOiJodHRwOi8vdm4ueGlhb3Nzcy50b3A6NDU2NyIsInRva2VuIjoiIn0=",
-      "filterable": 1,
-      "quickSearch": 1,
-      "name": "BiliBili",
-      "changeable": 0,
-      "jar": "http://vn.xiaosss.top:4567/spring.jar",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "api": "csp_BiliBili",
-      "type": 3,
-      "key": "csp_BiliBili",
-      "searchable": 1
-    },
-    {
-      "key": "豆豆",
-      "name": "豆豆",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715563882517/fan.txt;md5;e85e180ec8caae0d38c78a021a2494e0"
-    },
-    {
       "key": "玩偶",
       "name": "玩偶",
       "type": 3,
@@ -72,7 +46,7 @@
     },
     {
       "key": "短剧",
-      "name": "🌈上头┃短剧",
+      "name": "短剧",
       "type": 3,
       "api": "csp_Djuu",
       "searchable": 1,
@@ -82,7 +56,7 @@
     },
     {
       "key": "酷看",
-      "name": "💡酷看┃秒播",
+      "name": "酷看",
       "type": 3,
       "api": "csp_Kkys",
       "timeout": 15,
@@ -93,7 +67,7 @@
     },
     {
       "key": "视觉",
-      "name": "👓视觉┃多线",
+      "name": "视觉",
       "type": 3,
       "api": "csp_Xinsj",
       "timeout": 15,
@@ -105,7 +79,7 @@
     },
     {
       "key": "热播",
-      "name": "📺热播┃多线",
+      "name": "热播",
       "type": 3,
       "api": "csp_AppTT",
       "timeout": 15,
@@ -119,7 +93,7 @@
 
     {
       "key": "zxzj",
-      "name": "🍊在线┃外剧",
+      "name": "外剧",
       "type": 3,
       "api": "csp_Zxzj",
       "timeout": 15,
@@ -133,7 +107,7 @@
 
     {
       "key": "Ying",
-      "name": "💮樱花┃动漫",
+      "name": "樱花┃动漫",
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
@@ -143,7 +117,7 @@
     },
     {
       "key": "Ysj",
-      "name": "🎀异界┃动漫",
+      "name": "异界┃动漫",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
@@ -153,7 +127,7 @@
     },
     {
       "key": "Anime1",
-      "name": "🐾日本┃动漫",
+      "name": "日本┃动漫",
       "type": 3,
       "api": "csp_Anime1",
       "searchable": 1,
