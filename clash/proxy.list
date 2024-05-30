@@ -12,4 +12,7 @@ DOMAIN-SUFFIX, v2ex.com
 DOMAIN-SUFFIX, google.com
 DOMAIN-SUFFIX, googleapis.com
 DOMAIN-SUFFIX, googleapis.cn
+DOMAIN-SUFFIX, nodeseek.com
+DOMAIN-SUFFIX, cloudflareaccess.com
+DOMAIN-SUFFIX, cloudflareaccess.org
 IP-CIDR6,::/0
