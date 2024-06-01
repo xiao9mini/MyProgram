@@ -2,7 +2,6 @@ DOMAIN-SUFFIX, cloudflare.com
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, amazon.com
 DOMAIN-SUFFIX, notion.so
-DOMAIN-SUFFIX, oraclecloud.com
 DOMAIN-SUFFIX, diagrams.net
 DOMAIN-SUFFIX, bing.com
 DOMAIN-SUFFIX, openai.com
@@ -18,4 +17,7 @@ DOMAIN-SUFFIX, cloudflareaccess.org
 DOMAIN-SUFFIX, sms-activate.org
 DOMAIN-SUFFIX, api-ipv4.ip.sb
 DOMAIN-SUFFIX, api.ipify.org
+DOMAIN-SUFFIX, oracleinfinity.io
+DOMAIN-SUFFIX, oracle.com
+DOMAIN-SUFFIX, oraclecloud.com
 
