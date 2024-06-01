@@ -34,3 +34,6 @@ with open("config.ini", "r") as f:
 
 with open("config.ini", "w") as f:
     f.writelines(new_ini)
+
+
+os.system("git add . && git commit -m 'update' && git push")
