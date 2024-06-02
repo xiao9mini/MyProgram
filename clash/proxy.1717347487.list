@@ -5,12 +5,8 @@ DOMAIN-SUFFIX, notion.so
 DOMAIN-SUFFIX, diagrams.net
 DOMAIN-SUFFIX, bing.com
 DOMAIN-SUFFIX, openai.com
-DOMAIN-SUFFIX, bard.google.com
 DOMAIN-SUFFIX, claude.ai
 DOMAIN-SUFFIX, v2ex.com
-DOMAIN-SUFFIX, google.com
-DOMAIN-SUFFIX, googleapis.com
-DOMAIN-SUFFIX, googleapis.cn
 DOMAIN-SUFFIX, nodeseek.com
 DOMAIN-SUFFIX, cloudflareaccess.com
 DOMAIN-SUFFIX, cloudflareaccess.org
@@ -20,4 +16,5 @@ DOMAIN-SUFFIX, api.ipify.org
 DOMAIN-SUFFIX, oracleinfinity.io
 DOMAIN-SUFFIX, oracle.com
 DOMAIN-SUFFIX, oraclecloud.com
+DOMAIN-SUFFIX, spaceship.com
 
