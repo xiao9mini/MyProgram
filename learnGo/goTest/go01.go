@@ -155,4 +155,22 @@ func main() {
 	fmt.Println(greetings.Hello("world xx"))
 	fmt.Println(subpackagename.Hello("world xx"))
 
+Loop:
+	for i := 0; i < 5; i++ {
+		for j := 0; j < 5; j++ {
+			if j == 3 {
+				break Loop
+			}
+			fmt.Println("i = ", i, "j = ", j)
+		}
+	}
+
+	c := '#'
+	switch c {
+	default: // default 语句用于没有匹配的情况，默认最后执行
+		fmt.Println("c is not a special character")
+	case ' ', '?', '&', '=', '#', '+', '%':
+		fmt.Println("c is a special character")
+	}
+
 }
