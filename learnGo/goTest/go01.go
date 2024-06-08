@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"strconv"
 
 	"example.com/greetings"
@@ -172,5 +173,14 @@ Loop:
 	case ' ', '?', '&', '=', '#', '+', '%':
 		fmt.Println("c is a special character")
 	}
+
+	fmt.Printf("%q %q %q\n", "x'x", "abc", "abc	")
+
+	fmt.Println(min(1, 2, 3, 4, 5))
+
+}
+
+func init() {
+	log.Println("init:$USER not set")
 
 }
