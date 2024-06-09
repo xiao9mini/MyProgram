@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"strconv"
@@ -63,6 +64,11 @@ func modifyArrayWithPointer(arr *[]int) {
 // 切片信息
 func sprintSlice(x []int) string {
 	return fmt.Sprintf("len=%d cap=%d ", len(x), cap(x))
+}
+
+func init() {
+	log.Println("init:$USER not set")
+
 }
 
 func main() {
@@ -166,7 +172,7 @@ Loop:
 		}
 	}
 
-	c := '#'
+	c := '#' // 字符
 	switch c {
 	default: // default 语句用于没有匹配的情况，默认最后执行
 		fmt.Println("c is not a special character")
@@ -177,10 +183,9 @@ Loop:
 	fmt.Printf("%q %q %q\n", "x'x", "abc", "abc	")
 
 	fmt.Println(min(1, 2, 3, 4, 5))
-
-}
-
-func init() {
-	log.Println("init:$USER not set")
+	var addr = *(flag.String("addr", ":1718", "http service address")) // name不能重复定义 1718端口，用于生成二维码
+	flag.Parse()
+	fmt.Println("addr = ", addr)
+	fmt.Println(flag.Args())
 
 }
