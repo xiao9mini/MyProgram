@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 远程执行命令
+# bash <(curl -s https://raw.githubusercontent.com/xiao9mini/MyProgram/main/monitor/dataMonitoring.sh) 500 300 500
+
+
 # 用于监控网卡流量，当流量达到设定值时，自动关机
 in=${1:-500}  # 进站 默认500
 out=${2:-150} # 出站 默认150
