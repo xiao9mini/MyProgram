@@ -16,6 +16,7 @@ if [[ "$curPath" == /proc/* ]]; then
     curPath=$(pwd)
 fi
 cd $curPath # CD文件所在目录
+mkdir -p $curPath/data
 
 sudo apt install vnstat bc -y 2>&1 >/dev/null
 sudo sed -i 's/;UnitMode 0/UnitMode 1/' /etc/vnstat.conf
@@ -55,10 +56,10 @@ if [ \$allr -ge \$all ]; then
     sudo /usr/sbin/shutdown -h now
 fi
 
-" >"$curPath/check.sh"
+" >"$curPath/data/check.sh"
 
-cmd="/bin/bash $curPath/check.sh"
-cron_job="*/5 * * * * $cmd > $curPath/check.log 2>&1" # 每5分钟执行一次
+cmd="/bin/bash $curPath/data/check.sh"
+cron_job="*/5 * * * * $cmd > $curPath/data/check.log 2>&1" # 每5分钟执行一次
 # 如果存在则删除cmd
 # echo "$current_crontab" | grep -v "$cmd" | crontab -
 
