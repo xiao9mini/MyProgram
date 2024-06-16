@@ -69,7 +69,7 @@ cron_job="*/5 * * * * $cmd > $curPath/check.log 2>&1" # 每5分钟执行一次
 ) | crontab -
 
 crontab -l
-echo "监控网卡流量，当流量达到设定值时，自动关机。（5分钟）"
+echo "监控网卡流量，当流量达到设定值时，自动关机。（5分钟）
 in=$in   # 进站 默认500
 out=$out # 出站 默认150
 all=$all # 进出 默认500"
