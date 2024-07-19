@@ -37,19 +37,16 @@ allr=$(echo $result | awk -F '|' '{if($3~/GB/)print $3;else print 0}' | awk '{pr
 # 当前时间
 now=$(date "+%Y-%m-%d %H:%M")
 echo $now $inr $outr $allr
-# if in > 0 and inr > in
 if [ $inr -ge $din ]; then
     echo IN $din $inr GB
     sudo /usr/sbin/shutdown -h now
 fi
 
-# if out > 0 and outr > out
 if [ $outr -ge $dout ]; then
     echo OUT $dout $outr GB
     sudo /usr/sbin/shutdown -h now
 fi
 
-# if all > 0 and allr > all
 if [ $allr -ge $dall ]; then
     echo ALL $dall $allr GB
     sudo /usr/sbin/shutdown -h now
