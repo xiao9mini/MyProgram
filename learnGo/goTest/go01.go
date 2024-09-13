@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"log"
@@ -188,4 +189,12 @@ Loop:
 	fmt.Println("addr = ", addr)
 	fmt.Println(flag.Args())
 
+	// json字符串解析
+	jsonString := `{"name": "John Doe", "age": 30, "email": "john.doe@example.com", "location": {"city": "New York", "country": "USA"}}`
+	var result map[string]interface{}
+	json.Unmarshal([]byte(jsonString), &result)
+	fmt.Println(result)
+	result["name"] = "Tom"
+	result["location"].(map[string]interface{})["city"] = "Shanghai"
+	fmt.Println(result)
 }
